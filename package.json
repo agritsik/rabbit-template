@@ -1,0 +1,23 @@
+{
+  "name": "rabbit-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node $NODE_DEBUG_OPTION --use_strict index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agritsik/rabbit-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agritsik/rabbit-template/issues"
+  },
+  "homepage": "https://github.com/agritsik/rabbit-template#readme",
+  "dependencies": {
+    "amqplib": "^0.5.1"
+  }
+}
