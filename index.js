@@ -1,5 +1,5 @@
-console.log('hello');
-
 const rabbitTemplate = require('./rabbit');
-rabbitTemplate.send('hello1!', 'test');
-// rabbitTemplate.send('hello2!');
+
+rabbitTemplate.receive(m=>console.log(`Receive: ${m}`));
+
+setTimeout(()=>rabbitTemplate.send('hello1!'),1000);
